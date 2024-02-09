@@ -1,8 +1,10 @@
 {{ partial "head" . }}
 	<body id="top">
-		<header>
-			{{ partial "header" . }}
-		</header>
+		{{ if ne .Kind "404"}}
+			<header>
+				{{ partial "header" . }}
+			</header>
+		{{ end }}
 
 		{{ "<!-- Main -->" | safeHTML }}
 		<div id="main">

@@ -4,10 +4,8 @@
 	<p>Ashirt</p>
 </div>
 <div class="info-block">
-	{{ if ne .Kind "404" }}
-		<p class="header-title">{{ .Title }}</p>
-		<p class="header-subtitle">{{ .Description }}</p>
-	{{ end }}
+	<p class="header-title">{{ .Title }}</p>
+	<p class="header-subtitle">{{ .Description }}</p>
 	{{ if eq .Kind "home"}}
 		<button class="download-button">Download Ashirt</button>
 	{{ end }}
