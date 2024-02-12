@@ -1,0 +1,61 @@
+.download-button {
+	text-decoration: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 150px;
+	height: 25px;
+	color: #5DACE8;
+	border: 2px solid #5DACE8;
+	border-radius: 2px;
+	background: transparent;
+	text-transform: uppercase;
+	padding: 5px 20px;
+
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.logo {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.logo-block {
+	display: flex;
+	align-items: flex-start;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.header-title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	font-size: 52px;
+}
+
+.header-subtitle {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+	width: 500px;
+}
+
+header {
+	width: 100vw;
+	height: 40vh;
+	background: linear-gradient(180deg, #2E3337 0%, #1D2024 100%);
+}

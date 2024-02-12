@@ -1,0 +1,29 @@
+#main {
+	width: 100vw;
+	height: 60vh;
+}
+
+.page > .subtitle {
+	font-size: 22px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 60px 0 0 60px;
+}
+
+.page {
+	max-width: 100%;
+
+	height: inherit;
+	width: 100vw;
+	color: black;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.info-block {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}

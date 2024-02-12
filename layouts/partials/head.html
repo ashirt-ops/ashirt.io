@@ -1,9 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Site.Title }}</title>
-    {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{{ .Site.Title }}</title>
+
+		<!-- Base Styles -->
+		{{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- Head Styles -->
+		{{ $style := resources.Get "scss/header.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- Main Styles -->
+		{{ $style := resources.Get "scss/main.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- Cards Styles -->
+		{{ $style := resources.Get "scss/cards.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- List Styles -->
+		{{ $style := resources.Get "scss/list.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- Buttons Styles -->
+		{{ $style := resources.Get "scss/buttons.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+	</head>
+</html>
