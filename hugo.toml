@@ -1,4 +1,4 @@
-baseURL = 'https://ashirt-ops.github.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Ashirt'
 relativeURLs = "True"
