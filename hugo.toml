@@ -1,4 +1,5 @@
-baseURL = ''
+baseURL = 'https://ashirt-ops.github.io/'
 languageCode = 'en-us'
 title = 'Ashirt'
-relativeURLs = "True"
+relativeURLs = true
+cannonifyURLs = true
