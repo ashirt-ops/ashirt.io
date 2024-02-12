@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Ashirt'
+relativeURLs = "True"
