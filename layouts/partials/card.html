@@ -1,0 +1,20 @@
+<div class="card">
+	<div class="card-body">
+		{{ $iconPath := printf "images/%s.png" .icon }}
+		{{ $image := resources.Get $iconPath }}
+	
+		<img
+			src="{{ $image.RelPermalink }}"
+			alt="{{ .title }} icon"
+			class="card-icon"
+		/>
+	
+		{{ if eq .hasButton false }}
+			<p class="card-text">{{ .title }}</p>
+		{{ end }}
+	</div>
+
+	{{ if eq .hasButton true }}
+		<a href="{{ .link }}" class="card-button">{{ .title }}</a>
+	{{ end }}
+</div>

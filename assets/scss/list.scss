@@ -1,0 +1,24 @@
+.content > p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 2.5;
+
+	margin-left: 100px;
+}
+
+.content {
+	padding-top: 68px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.container {
+	height: inherit;
+	width: inherit;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr 1fr;
+}
