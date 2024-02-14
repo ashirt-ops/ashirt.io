@@ -4,8 +4,10 @@ description: "Follow the instructions below to help you begin installing Ashirt 
 layout: list
 ---
 
-**Step 1.** Mount the DMG file
+**Step 1.** Download ASHIRT for OSX [here](https://github.com/ashirt-ops/ashirt/releases/download/v1.2.2/ashirt-v1.2.2.dmg)
 
-**Step 2.** Move ashirt app into your local applications folder
+**Step 2.** Mount the downloaded DMG file
 
-**Step 3.** Launch the Ashirt application using the folder through spotlight or with your terminal command: **open -a ashirt**
+**Step 3.** Move ashirt app into your local applications folder
+
+**Step 4.** Launch the Ashirt application using the folder through spotlight or with your terminal using the command: <code id="osx-command">open -a ashirt <button onClick="copyCode('osx-command')">Copy code</button></code>
