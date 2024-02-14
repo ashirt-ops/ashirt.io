@@ -1,3 +1,29 @@
+#linux-command {
+	width: 35%;
+}
+
+#osx-command {
+	width: 17%;
+}
+
+code > button {
+	height: 25px;
+}
+
+code {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: center;
+	vertical-align: center;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 100px;
+}
+
 .content > p {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 30px;
