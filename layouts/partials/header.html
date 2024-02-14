@@ -24,7 +24,7 @@
 <div class="bottom-block">
 	<p class="header-title">{{ .Title }}</p>
 	<p class="header-subtitle">{{ .Description }}</p>
-	{{ if eq .Kind "home"}}
+	{{ if eq .Page.RelPermalink "/getting-started/"}}
 		<a target="_blank" href="https://github.com/ashirt-ops/ashirt/releases/latest" class="download-button">Download Ashirt</a>
 	{{ end }}
 

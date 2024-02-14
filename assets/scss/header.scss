@@ -47,6 +47,14 @@
 	cursor: pointer;
 }
 
+.item:hover {
+	text-decoration: underline;
+}
+
+.item {
+	margin-left: 2.5%;
+}
+
 .menu-items a {
 	text-decoration: none;
 	color: white;
@@ -54,7 +62,7 @@
 
 .menu-items {
 	flex: 1;
-	justify-content: space-evenly;
+	font-size: 17px;
 }
 
 .menu-items, .logo {
