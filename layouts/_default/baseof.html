@@ -1,6 +1,6 @@
 {{ partial "head" . }}
 	<body id="top">
-		{{ if (and (ne .Kind "home") (ne .Kind "404")) }}
+		{{ if ne .Kind "404" }}
 			<header>
 				{{ partial "header" . }}
 			</header>
