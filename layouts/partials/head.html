@@ -28,5 +28,9 @@
 		<!-- Buttons Styles -->
 		{{ $style := resources.Get "scss/buttons.scss" | toCSS | minify }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- FAQ Styles -->
+		{{ $style := resources.Get "scss/faq.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 	</head>
 </html>
