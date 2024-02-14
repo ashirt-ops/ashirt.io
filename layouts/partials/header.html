@@ -27,4 +27,8 @@
 	{{ if eq .Kind "home"}}
 		<a target="_blank" href="https://github.com/ashirt-ops/ashirt/releases/latest" class="download-button">Download Ashirt</a>
 	{{ end }}
+
+	{{ if eq .Page.RelPermalink "/support/"}}
+		{{ partial "support-buttons.html" . }}
+	{{ end }}
 </div>
