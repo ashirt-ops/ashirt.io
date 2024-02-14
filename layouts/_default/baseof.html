@@ -10,5 +10,11 @@
 		<div id="main">
 			{{ block "main" . }}{{ end }}
 		</div>
+
+		{{ $script := resources.Get "js/copyCode.js" }}
+		<script defer language="javascript" type="text/javascript"  src="{{ $script.RelPermalink }}"></script>
+
+		{{ $script := resources.Get "js/toggleContent.js" }}
+		<script defer language="javascript" type="text/javascript"  src="{{ $script.RelPermalink }}"></script>
 	</body>
 </html>
