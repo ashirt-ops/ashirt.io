@@ -1,0 +1,13 @@
+{{ $data := "" }}
+{{ $url := "https://api.github.com/repos/ashirt-ops/ashirt/releases/latest" }}
+{{ with resources.GetRemote $url }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else }}
+    {{ $data = . | transform.Unmarshal }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get remote resource %q" $url }}
+{{ end }}
+{{ $template := .Get "template"}}
+{{ fmt.Printf $template $data.tag_name }}
