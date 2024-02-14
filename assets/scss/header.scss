@@ -20,13 +20,33 @@
 	cursor: pointer;
 }
 
-.logo {
-	display: flex;
-	margin-top: 20px;
-	margin-left: 20px;
+.menu-items a {
+	text-decoration: none;
+	color: white;
 }
 
-.logo-block {
+.menu-items {
+	flex: 1;
+	justify-content: space-evenly;
+}
+
+.menu-items, .logo {
+	display: flex;
+	margin-top: 20px;
+}
+
+.top-block a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	margin-left: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-block {
 	display: flex;
 	align-items: flex-start;
 	color: #ffffff;
@@ -35,6 +55,16 @@
 	font-weight: 700;
 	font-size: 26px;
 }
+
+
+.bottom-block {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 
 .header-title {
 	font-family: Helvetica, Arial, sans-serif;

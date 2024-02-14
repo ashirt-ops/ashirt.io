@@ -1,14 +1,30 @@
-<div class="logo-block">
-	{{ $image := resources.Get "images/large.png" }}
-	<div class="logo">
-		<img src="{{ $image.RelPermalink }}" alt="Ashirt Logo" />
-		<p>Ashirt</p>
+<div class="top-block">
+	{{ $image := resources.Get "images/ashirt.png" }}
+	<a href="/">
+		<div class="logo">
+			<img width="41px" height="35px" src="{{ $image.RelPermalink }}" alt="Ashirt Logo" />
+			<p>Ashirt</p>
+		</div>
+	</a>
+	<div class="menu-items">
+		<div class="item">
+			<a target="_blank" href="https://github.com/ashirt-ops/ashirt-server/wiki/quickstart">Server Docs</a>
+		</div>
+		<div class="item">
+			<a target="_blank" href="https://github.com/ashirt-ops/ashirt/wiki/quickstart">Client Docs</a>
+		</div>
+		<div class="item">
+			<a target="_blank" href="https://github.com/ashirt-ops/ashirt/releases/latest">Downloads</a>
+		</div>
+		<div class="item">
+			<a href="/support">Support / FAQs</a>
+		</div>
 	</div>
 </div>
-<div class="info-block">
+<div class="bottom-block">
 	<p class="header-title">{{ .Title }}</p>
 	<p class="header-subtitle">{{ .Description }}</p>
 	{{ if eq .Kind "home"}}
-		<a class="download-button">Download Ashirt</a>
+		<a target="_blank" href="https://github.com/ashirt-ops/ashirt/releases/latest" class="download-button">Download Ashirt</a>
 	{{ end }}
 </div>
