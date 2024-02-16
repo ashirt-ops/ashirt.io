@@ -1,17 +1,44 @@
+#active-button {
+	background-color: #5daceb;
+	color: black;
+}
+
+#inactive-button {
+	background-color: transparent;
+	color: #5DACE8;
+}
+
+.support-buttons > button:first-child {
+	margin-right: 76px;
+}
+
+.support-buttons {
+	display: flex;
+	justify-content: space-around;
+}
+
+.support-buttons button {
+	width: 100px;
+	height: 40px;
+}
+
 .download-button {
+	width: 150px;
+	height: 25px;
+	text-transform: uppercase;
+	color: #5DACE8;
+}
+
+.download-button, .support-buttons button {
 	text-decoration: none;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	width: 150px;
-	height: 25px;
-	color: #5DACE8;
 	border: 2px solid #5DACE8;
 	border-radius: 2px;
 	background: transparent;
-	text-transform: uppercase;
 	padding: 5px 20px;
 
 	font-family: Inter;
@@ -20,13 +47,41 @@
 	cursor: pointer;
 }
 
-.logo {
-	display: flex;
-	margin-top: 20px;
-	margin-left: 20px;
+.item:hover {
+	text-decoration: underline;
 }
 
-.logo-block {
+.item {
+	margin-left: 2.5%;
+}
+
+.menu-items a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-items {
+	flex: 1;
+	font-size: 17px;
+}
+
+.menu-items, .logo {
+	display: flex;
+	margin-top: 20px;
+}
+
+.top-block a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	margin-left: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.top-block {
 	display: flex;
 	align-items: flex-start;
 	color: #ffffff;
@@ -35,6 +90,16 @@
 	font-weight: 700;
 	font-size: 26px;
 }
+
+
+.bottom-block {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 
 .header-title {
 	font-family: Helvetica, Arial, sans-serif;

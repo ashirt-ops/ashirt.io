@@ -9,11 +9,11 @@
     {{ end }}
 	</div>
 
-	{{ if eq .Kind "home"}}
+	{{ if eq .Page.RelPermalink "/getting-started/"}}
     <a href="/install" class="next-button">Next</a>
 	{{ end }}
 
-  <div class="content">
-    {{ .Content }}
+	<div class="content">
+    	{{ .Content }}
   </div>
 </section>

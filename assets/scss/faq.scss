@@ -1,0 +1,33 @@
+.hidden {
+	display: none;
+}
+
+.faq-content h3 {
+	font-weight: 500;
+}
+
+.faq-content h2 {
+	font-weight: 700;
+}
+
+.faq-content h2, .faq-content h3 {
+	font-size: 22px;
+}
+
+.faq-content p {
+	font-size: 20px;
+}
+
+.faq-content {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 60px 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.questions-box {
+	border-bottom: 1px solid #EAEBEE;
+
+	height: 7rem;
+}

@@ -1,3 +1,17 @@
+button:hover, .next-button:hover, .done-button:hover, .card-button:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+button {
+	border-radius: 2px;
+	border: 1px solid #5daceb;
+	background-color: #5daceb;
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+}
+
 .done-button {
 	justify-self: flex-end;
 	align-self: flex-end;

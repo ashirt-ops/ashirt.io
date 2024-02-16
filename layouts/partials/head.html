@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>{{ .Site.Title }}</title>
 
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}/favicon.ico">
+
 		<!-- Base Styles -->
 		{{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
@@ -27,6 +30,10 @@
 
 		<!-- Buttons Styles -->
 		{{ $style := resources.Get "scss/buttons.scss" | toCSS | minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+		<!-- FAQ Styles -->
+		{{ $style := resources.Get "scss/faq.scss" | toCSS | minify }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 	</head>
 </html>
