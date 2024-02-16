@@ -1,9 +1,22 @@
-#linux-command {
-	width: 35%;
+@media (max-width: 1440px) {
+  #linux-command {
+		width: 80%;
+		font-size: 80%;
+	}
+
+	#osx-command {
+		width: 50%;
+	}
 }
 
-#osx-command {
-	width: 17%;
+@media (min-width: 1440px) {
+	#linux-command {
+		width: 60%;
+	}
+
+	#osx-command {
+		width: 27%;
+	}
 }
 
 code > button {
