@@ -11,17 +11,9 @@ layout: faq
 
 <div class="questions-box">
 
-## Contact Email
-
-exampleemail@support.ashirt.com
-
-</div>
-
-<div class="questions-box">
-
 ## Online Chat
 
-link to support chat messaging
+[Online Chat (Discord)](https://discord.gg/ymcW6sRveX)
 
 </div>
 
@@ -33,25 +25,28 @@ link to support chat messaging
 
 <div class="questions-box">
 
-## Question example, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
+## Who is ASHIRT for?
 
-Solution: _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor_
-
-</div>
-
-<div class="questions-box">
-
-## Question example, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
-
-Solution: _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor_
+- _ASHIRT was developed by the Yahoo Red Team to reduce friction of reporting during engagements. ASHIRT allows operators to quickly submit relevant evidence without switching screens._
+- _No more dragging and dropping screenshots into a shared folder or document. No more saving recordings to a shared file folder._
 
 </div>
 
 <div class="questions-box">
 
-## Question example, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
+## Why should I use ASHIRT?
 
-Solution: _Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor_
+- It allows multiple operators to capture and place that evidence into a coherent timeline of events. 
+- It serves as an automatic synchronization point for different members and stakeholders to instantly get visibility into what is happening.
+
+</div>
+
+<div class="questions-box">
+
+## What does ASHIRT do for Blue Teams?
+
+- _It improves collaboration, allowing network defenders to see exactly what happened, when it happened, and most importantly how._
+- _When the Blue Team wants to recreate an attack, structure a hunt, or build detections, ASHIRT lays an easy-to-follow timeline to reference. One Paranoids' network defender said, "It's not quite being in the attacker's shoes, but it's pretty dang close."_
 
 </div>
 </div>
