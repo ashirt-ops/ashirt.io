@@ -36,8 +36,8 @@ layout: faq
 
 ## Why should I use ASHIRT?
 
-- It allows multiple operators to capture and place that evidence into a coherent timeline of events. 
-- It serves as an automatic synchronization point for different members and stakeholders to instantly get visibility into what is happening.
+- _It allows multiple operators to capture and place that evidence into a coherent timeline of events._
+- _It serves as an automatic synchronization point for different members and stakeholders to instantly get visibility into what is happening._
 
 </div>
 
