@@ -7,6 +7,11 @@
 	#osx-command {
 		width: 50%;
 	}
+
+	#launch-linux {
+		width: 80%;
+		font-size: 80%;
+	}
 }
 
 @media (min-width: 1440px) {
@@ -16,6 +21,10 @@
 
 	#osx-command {
 		width: 27%;
+	}
+
+	#launch-linux {
+		width: 50%;
 	}
 }
 

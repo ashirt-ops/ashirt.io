@@ -9,4 +9,5 @@ layout: list
 **Step 2.** Set the executable bit on the downloaded app image:\
 <code id="linux-command">chmod +x{{< fetch-ashirt-version template="ashirt-%s-x86_64.AppImage" >}} <button onClick="copyCode('linux-command')">Copy code</button></code>
 
-**Step 3.** Launch Ashirt application
+**Step 3.** Launch Ashirt application:\
+<code id="launch-linux">{{< fetch-ashirt-version template="./ashirt-%s-x86_64.AppImage" >}} <button onClick="copyCode('launch-linux')">Copy code</button></code>
