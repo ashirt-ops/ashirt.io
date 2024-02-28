@@ -12,6 +12,16 @@
 		width: 80%;
 		font-size: 80%;
 	}
+
+	.windows-code-smaller {
+		width: 45%;
+		font-size: 18px;
+	}
+
+	.windows-code {
+		width: 85%;
+		font-size: 11px;
+	}
 }
 
 @media (min-width: 1440px) {
@@ -26,7 +36,18 @@
 	#launch-linux {
 		width: 50%;
 	}
+
+	.windows-code-smaller {
+		width: 35%;
+		font-size: 24px;
+	}
+
+	.windows-code {
+		width: 75%;
+		font-size: 10px;
+	}
 }
+
 
 code > button {
 	height: 25px;
@@ -56,7 +77,8 @@ code {
 }
 
 .content {
-	padding-top: 68px;
+	padding-top: 35px;
+
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
