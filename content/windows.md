@@ -4,7 +4,7 @@ description: "Follow the instructions below to help you begin installing Ashirt 
 layout: list
 ---
 
-**Step 1.** Download the IrfanView installer [here](https://download.betanews.com/download/967963863-1/iview462_x64_setup.exe)
+**Step 1.** Download the <a href="https://www.irfanview.com/" target="_blank">IrfanView</a> installer [here](https://download.betanews.com/download/967963863-1/iview462_x64_setup.exe)
 
 **Step 2.** Launch the IrfanView installer and proceed with default options:\
 <code class="windows-code-smaller" id="launch-ir-fanview-installer">.\iview462_x64_setup.exe<button onClick="copyCode('launch-ir-fanview-installer')">Copy code</button></code>
