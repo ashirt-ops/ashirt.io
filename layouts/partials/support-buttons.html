@@ -1,4 +1,4 @@
 <div class="support-buttons">
-	<button id="active-button" onclick="toggleContent('faqs')">FAQs</button>
-	<button id="inactive-button" onclick="toggleContent('contact')">Contact</button>
+	<button class="active" id="faq-button" onclick="toggleContent('faqs', 'faq-button', 'contact-button')">FAQs</button>
+	<button class="inactive" id="contact-button" onclick="toggleContent('contact', 'contact-button', 'faq-button')">Contact</button>
 </div>

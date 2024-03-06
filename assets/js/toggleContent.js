@@ -1,13 +1,13 @@
-function toggleButtons() {
-	const activeButton = document.getElementById('active-button');
-	const inactiveButton = document.getElementById('inactive-button');
+function toggleButtons(buttonToActivate, buttonToDeactivate) {
+	const inactiveButton = document.getElementById(buttonToActivate);
+	const activeButton = document.getElementById(buttonToDeactivate);
 
-	activeButton.id = 'inactive-button';
-	inactiveButton.id = 'active-button';
+	activeButton.className = 'inactive';
+	inactiveButton.className = 'active';
 }
 
-function toggleContent(elementId) {
-	toggleButtons();
+function toggleContent(elementId, buttonToActivate, buttonToDeactivate) {
+	toggleButtons(buttonToActivate, buttonToDeactivate);
 
 	const elementToShowId = elementId === 'faqs' ? 'contact' : 'faqs';
 
