@@ -4,7 +4,7 @@ description: "Follow the instructions below to help you begin installing Ashirt 
 layout: list
 ---
 
-**Step 1.** Download ASHIRT for OSX [here]({{<fetch-ashirt-version template="https://github.com/ashirt-ops/ashirt/releases/download/%[1]v/ashirt-%[1]v.dmg">}})
+**Step 1.** Download ASHIRT for Mac OS [here]({{<fetch-ashirt-version template="https://github.com/ashirt-ops/ashirt/releases/download/%[1]v/ashirt-%[1]v.dmg">}})
 
 **Step 2.** Mount the downloaded DMG file
 

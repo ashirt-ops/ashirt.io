@@ -5,9 +5,9 @@ subtitle: "Desktop platforms:"
 cards:
   - 
     icon: "apple"
-    title: "OSX"
+    title: "Mac OS"
     hasButton: true
-    link: "/osx"
+    link: "/macos"
   - 
     icon: "win"
     title: "Windows"

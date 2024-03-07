@@ -1,12 +1,14 @@
 <div class="top-block">
-	{{ $image := resources.Get "images/ashirt.png" }}
+	{{ $image := resources.Get "images/ashirt.svg" }}
 	<a href="/">
 		<div class="logo">
-			<img width="41px" height="35px" src="{{ $image.RelPermalink }}" alt="Ashirt Logo" />
-			<p>Ashirt</p>
+			<img class="logo-svg" src="{{ $image.RelPermalink }}" alt="Ashirt Logo" />
 		</div>
 	</a>
 	<div class="menu-items">
+		<div class="item">
+			<a href="/">Ashirt</a>
+		</div>
 		<div class="item">
 			<a target="_blank" href="https://github.com/ashirt-ops/ashirt-server/wiki/quickstart">Server Docs</a>
 		</div>
@@ -17,18 +19,14 @@
 			<a target="_blank" href="https://github.com/ashirt-ops/ashirt/releases/latest">Downloads</a>
 		</div>
 		<div class="item">
-			<a href="/support">Support / FAQs</a>
+			<a href="/support">Support</a>
+		</div>
+		<div class="item">
+			<a href="/faq">FAQs</a>
 		</div>
 	</div>
 </div>
 <div class="bottom-block">
 	<p class="header-title">{{ .Title }}</p>
 	<p class="header-subtitle">{{ .Description }}</p>
-	{{ if eq .Page.RelPermalink "/getting-started/"}}
-		<a target="_blank" href="https://github.com/ashirt-ops/ashirt/releases/latest" class="download-button">Download Ashirt</a>
-	{{ end }}
-
-	{{ if eq .Page.RelPermalink "/support/"}}
-		{{ partial "support-buttons.html" . }}
-	{{ end }}
 </div>
