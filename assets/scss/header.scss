@@ -7,59 +7,11 @@
 	justify-self: center;
 }
 
-.active {
-	background-color: #5daceb;
-	color: black;
-}
-
-.inactive {
-	background-color: transparent;
-	color: #5DACE8;
-}
-
-.support-buttons > button:first-child {
-	margin-right: 76px;
-}
-
-.support-buttons {
-	display: flex;
-	justify-content: space-around;
-}
-
-.support-buttons button {
-	width: 100px;
-	height: 40px;
-}
-
-.download-button {
-	width: 150px;
-	height: 25px;
-	text-transform: uppercase;
-	color: #5DACE8;
-}
-
-.download-button, .support-buttons button {
-	text-decoration: none;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	border: 2px solid #5DACE8;
-	border-radius: 2px;
-	padding: 5px 20px;
-
-	font-family: Inter;
-	font-size: 15px;
-	font-weight: 600;
-	cursor: pointer;
-}
-
 .item:hover {
 	text-decoration: underline;
 }
 
-.item {
+.item:not(:first-child) {
 	margin-left: 2.5%;
 }
 
