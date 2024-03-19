@@ -1,6 +1,6 @@
 ---
 title: "Windows"
-description: "Follow the instructions below to help you begin installing Ashirt to your local desktop"
+description: "Follow the instructions below to help you begin installing ASHIRT to your local desktop"
 layout: list
 ---
 

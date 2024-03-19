@@ -1,6 +1,6 @@
 baseURL = 'https://ashirt-ops.github.io/'
 languageCode = 'en-us'
-title = 'Ashirt'
+title = 'ASHIRT'
 relativeURLs = true
 cannonifyURLs = true
 

@@ -1,6 +1,6 @@
 ---
 title: "OSX"
-description: "Follow the instructions below to help you begin installing Ashirt to your local desktop"
+description: "Follow the instructions below to help you begin installing ASHIRT to your local desktop"
 layout: list
 ---
 
@@ -10,5 +10,5 @@ layout: list
 
 **Step 3.** Move ashirt app into your local applications folder
 
-**Step 4.** Launch the Ashirt application using the folder through spotlight or with your terminal using the command:\
+**Step 4.** Launch the ASHIRT application using the folder through spotlight or with your terminal using the command:\
 <code id="osx-command">open -a ashirt <button onClick="copyCode('osx-command')">Copy code</button></code>

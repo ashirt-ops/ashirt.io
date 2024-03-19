@@ -1,6 +1,6 @@
 ---
 title: "Linux"
-description: "Follow the instructions below to help you begin installing Ashirt to your local desktop"
+description: "Follow the instructions below to help you begin installing ASHIRT to your local desktop"
 layout: list
 ---
 
@@ -9,5 +9,5 @@ layout: list
 **Step 2.** Set the executable bit on the downloaded app image:\
 <code id="linux-command">chmod +x{{< fetch-ashirt-version template="ashirt-%s-x86_64.AppImage" >}} <button onClick="copyCode('linux-command')">Copy code</button></code>
 
-**Step 3.** Launch Ashirt application:\
+**Step 3.** Launch ASHIRT application:\
 <code id="launch-linux">{{< fetch-ashirt-version template="./ashirt-%s-x86_64.AppImage" >}} <button onClick="copyCode('launch-linux')">Copy code</button></code>

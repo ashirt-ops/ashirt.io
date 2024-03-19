@@ -27,9 +27,9 @@ layout: faq
 
 <div class="questions-box">
 
-## To open an issue or feature request for ashirt:
+## To open an issue or feature request for ASHIRT:
 
-[Ashirt Github Issues]( https://github.com/ashirt-ops/ashirt/issues/new/choose)
+[ASHIRT Github Issues]( https://github.com/ashirt-ops/ashirt/issues/new/choose)
 
 </div>
 
